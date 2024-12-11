@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clover Creative Agency Card</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f5ee;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .business-card {
+        width: 600px;
+        height: 300px;
+        /* background-color: white; */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        overflow: hidden;
+        background-image: url("bg.png");
+background-size: 100% 100%; 
+
+      }
+
+      .left-section {
+        /* background-color: #e7f0e6; */
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 34px;
+      }
+
+      .left-section img {
+        width: 129px;
+      }
+
+      .left-section h1 {
+        margin: 10px 0;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 1px;
+    width: max-content;
+    margin-bottom: 4px;
+      }
+
+      .left-section p{
+        margin-top: 0;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    letter-spacing: 2px;
+      }
+
+      .right-section {
+        flex: 2;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        font-size: 16px;
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .contact-info a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+      }
+
+      .contact-info a:hover {
+        color: black;
+      }
+
+      .icon {
+        width: 20px;
+      }
+      .vertical-lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 41px; 
+  gap: 10px; 
+}
+      .vertical-lines .line1 {
+  width: 2px;
+  height: 121px; 
+  background-color: #2f4f2f; 
+}
+.vertical-lines .line2 {
+  width: 2px; 
+  height: 220px;
+  background-color: #2f4f2f; 
+}
+    </style>
+  </head>
+  <body>
+    <div class="business-card">
+      <div class="left-section">
+        <img src="https://www.clovercreative.ae/img/logo.png" alt="Clover Creative Logo" />
+        <h1>CLOVER CREATIVE</h1>
+        <p>AGENCY</p>
+        
+      </div>
+      <div class="med-section">
+        <div class="vertical-lines">
+            <div class="line1"></div>
+            <div class="line2"></div>
+          </div>
+      </div>
+      <div class="right-section">
+        <div class="name">Siyona Shajil</div>
+        <div class="title">Co-founder</div>
+        <div class="contact-info">
+          <a href="tel:+971527074607">
+            <img class="icon" src="phone.svg" alt="Phone Icon" />
+            +971 527074607
+          </a>
+          <a href="mailto:clovercrtagency@gmail.com">
+            <img class="icon" src="mail.svg" alt="Email Icon" />
+            clovercrtagency@gmail.com
+          </a>
+          <a href="https://www.clovercreative.ae" target="_blank">
+            <img class="icon" src="website.svg" alt="Web Icon" />
+            www.clovercreative.ae
+          </a>
+          <a  target="_blank">
+            <img class="icon" src="location.svg" alt="Location Icon" />
+            Dubai, UAE
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
